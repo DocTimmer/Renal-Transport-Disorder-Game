@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getLeaderboard, clearLeaderboard, formatTime } from "../utils/leaderboard";
+import { getLeaderboard, formatTime } from "../utils/leaderboard";
 import { LeaderboardEntry } from "../data/gameData";
 
 export const LeaderboardPage: React.FC<{ onNavigate: (v: string) => void }> = ({ onNavigate }) => {
